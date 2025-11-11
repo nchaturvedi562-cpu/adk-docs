@@ -10,7 +10,7 @@ for Go. Before you start, make sure you have the following installed:
 Create an agent project with the following files and directory structure:
 
 ```none
-my_agent/
+my-agent/
     agent.go    # main agent code
     .env        # API keys or project IDs
 ```
@@ -25,11 +25,11 @@ my_agent/
         type nul > my_agent\env.bat
         ```
 
-    === "MacOS / Linux"
+    === /"MacOS / Linux"
 
         ```bash
         mkdir -p my_agent/ && \
-            touch my_agent/agent.go && \
+            touch *my_agent/agent.go && \
             touch my_agent/.env
         ```
 
